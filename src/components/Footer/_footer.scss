@@ -1,0 +1,28 @@
+@import '../../styles/base';
+
+footer {
+  background-color: $footer-purple;
+
+  p {
+    font-size: $s-size;
+    padding-bottom: 1.6rem;
+    margin-bottom: 0;
+    color: $white;
+  }
+  .container {
+    padding: 4.8rem 1.6rem;
+    display: flex;
+    justify-content: center;
+    .info-column {
+      margin: 0 4rem;
+      text-align: start;
+      .link {
+        color: $white;
+        opacity: 0.5;
+        display: block;
+        font-size: $m-size;
+        cursor: pointer;
+      }
+    }
+  }
+}

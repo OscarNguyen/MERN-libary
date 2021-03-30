@@ -1,0 +1,10 @@
+@import '../../../styles/base';
+
+.signup-page {
+  background: $dark-background,
+    url('http://cdn.wallpaperhi.com/2249x1510/20120707/naruto%20shippuden%20akatsuki%20manga%20tobi%20uchiha%20madara%202249x1510%20wallpaper_www.wallpaperhi.com_52.jpg');
+  @include input-form-page;
+}
+.signup-form {
+  @include input-form;
+}

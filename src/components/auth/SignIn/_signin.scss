@@ -1,0 +1,8 @@
+@import '../../../styles/base';
+.signin-page {
+  background: $dark-background, url('https://wallpaper.dog/large/10855857.jpg');
+  @include input-form-page;
+}
+.signin-form {
+  @include input-form;
+}

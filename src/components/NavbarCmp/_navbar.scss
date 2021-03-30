@@ -1,0 +1,45 @@
+@import '../../styles/base';
+
+.navbar-trans-color {
+  padding: 1.2rem $layout-width !important;
+  //box-shadow: 0 3px 3px #000;
+  // position: fixed !important;
+  position: absolute !important;
+  z-index: 10;
+  width: 100%;
+  background-color: transparent;
+}
+
+.navbar-bg-color {
+  padding: 1.2rem $layout-width !important;
+
+  background-color: $header-purple2 !important;
+  position: relative;
+  box-shadow: 0 1px 3px #000;
+}
+.navbar-brand {
+  color: $header-purple;
+  font-size: 4.4rem !important;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px $white;
+  cursor: pointer;
+}
+
+.navbar__button {
+  margin: 0 0.8rem;
+  font-size: 1.6rem !important;
+  background-color: $header-purple !important;
+  border-radius: 0.75rem !important;
+  padding: 0.8rem 1.6rem !important;
+
+  a,
+  a:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.navbar__button-list {
+  list-style: none;
+  display: flex;
+}

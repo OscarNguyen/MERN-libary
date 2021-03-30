@@ -1,0 +1,52 @@
+//Colors
+$white: #fff;
+$black: #000;
+$header-purple: #2b2e4a;
+$header-purple2: #e84545;
+$body-purple: #903749;
+$footer-purple: #53354a;
+$title-background-color: #1b2021;
+//Size
+$layout-width: 10.6rem;
+
+//Dark background
+$dark-background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+//Font size
+$s-size: 1.2rem;
+$m-size: 1.8rem;
+$l-size: 2.4rem;
+$xl-size: 3.6rem;
+
+html {
+  font-size: 62.5%;
+}
+
+@mixin input-form-page {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 'center center';
+  background-origin: border-box;
+  height: 100vh;
+  padding-top: 20rem;
+  @content;
+}
+
+@mixin input-form {
+  padding: 3.6rem;
+
+  border: 1px solid $black;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 20%;
+  margin: auto auto;
+
+  input {
+    font-size: $m-size;
+  }
+  button {
+    margin-top: 1.6rem;
+    width: 100%;
+    font-size: $m-size;
+    background-color: $header-purple;
+  }
+  @content;
+}
